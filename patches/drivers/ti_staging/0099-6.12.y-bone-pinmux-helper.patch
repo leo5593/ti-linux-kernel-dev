@@ -53,7 +53,7 @@ index 07c7197d4a1e..bfa9eb0b0425 100644
 +obj-y				+= cape/
  obj-$(CONFIG_ECHO)		+= echo/
  obj-$(CONFIG_CXL_BASE)		+= cxl/
- obj-$(CONFIG_PCI_ENDPOINT_TEST)	+= pci_endpoint_test.o
+ obj-$(CONFIG_DW_XDATA_PCIE)	+= dw-xdata-pcie.o
 diff --git a/drivers/misc/cape/Kconfig b/drivers/misc/cape/Kconfig
 new file mode 100644
 index 000000000000..a2ef85e0415c
